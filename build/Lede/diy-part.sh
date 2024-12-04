@@ -69,8 +69,8 @@ export Disable_autosamba="0"                 # 去掉源码默认自选的luci-a
 # 启动18.06Luci
 # sed -i 's@src-git luci@# src-git luci@g' feeds.conf.default
 
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
+# rm -rf feeds/packages/lang/golang
+# git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
 # 其他
 export Ttyd_account_free_login="1"           # 设置ttyd免密登录(1为启用命令,填0为不作修改)
