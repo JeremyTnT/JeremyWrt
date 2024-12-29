@@ -53,6 +53,7 @@ CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libstdcpp=y
 CONFIG_PACKAGE_libyaml=y
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
+CONFIG_PACKAGE_luci-app-argon-config=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
 CONFIG_PACKAGE_luci-app-diskman=y
@@ -87,7 +88,7 @@ CONFIG_PACKAGE_luci-app-ramfree=y
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
 CONFIG_PACKAGE_luci-app-zerotier=y
-CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
